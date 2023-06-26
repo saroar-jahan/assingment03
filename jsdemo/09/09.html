@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form</title>
+
+    <link rel="stylesheet" href="./../css/milligram.min.css" />
+    <link rel="stylesheet" href="./../css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3>HTML Form Validation</h3>
+      <form onsubmit="nameErrCall()">
+        <input type="text" placeholder="Name" id="name" />
+        <p id="name-err" class="err"></p>
+        <input type="email" placeholder="email@email.com" id="email" />
+        <input type="password" placeholder="******" id="password" />
+        <input type="password" placeholder="******" id="cpassword" />
+        <input type="submit" id="submit" value="Submit" id="submit" />
+      </form>
+    </div>
+
+    <script src="09.js"></script>
+  </body>
+</html>
